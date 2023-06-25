@@ -1,0 +1,47 @@
+/* Cambio de Fondo  */
+
+body{
+    background-image:url(../Imágenes/giphy.gif);
+    background-size: cover;
+    background-position: center 40%;
+    
+}
+
+
+/* Cambio de párrafo principal */
+
+p{
+    color: #02a443;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+}
+
+/* Cambio del Placeholder */
+::placeholder{
+    color: red;
+}
+
+p input{
+    border-color: #ff0303;
+    box-shadow: 3px 3px 3px #120052;
+}
+
+textarea{
+    border-color: #ff0303;
+    box-shadow: 3px 3px 3px #120052;
+}
+
+button{
+    color: red;
+    border-color: #ff0303;
+    box-shadow: 3px 3px 3px #120052;
+}
+
+/* Cambio del botón volver al inicio */
+
+p a{
+    color: red;
+}

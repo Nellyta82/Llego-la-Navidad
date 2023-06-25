@@ -1,0 +1,102 @@
+/* Cambio de Fondo */
+
+#Imagenfondo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+}
+
+/* Cambios de Título Principal */
+
+h1{
+    font-family: Lucida;
+    color: #ff0303 ;
+    font-size: 3.5em;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+    transform: translate(0%, 0%);
+}
+
+/* Cambio de Títulos Secundarios */
+
+h2{
+    color: rgb(3, 250, 3);
+    font-family: Tahoma;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: normal;
+    text-shadow: 2px 2px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    
+}
+
+
+/* Pasar todas las letras al frente */
+
+div{
+    transform: translate(0%, 0%);
+    
+}
+
+/* Cambio de las listas */
+
+.cambiodecolor{
+   color: white;
+   font-family: Lucida;
+   font-style: italic;
+   font-weight: lighter;
+   font-size: 26px;
+   text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+.cambiodecolor .cambiodeletra a{
+    text-decoration: white;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    font-size: 26px;
+}
+
+
+/* Cambio de los Párrafos */
+
+p{
+    font: Georgia, serif;
+    font-weight: lighter;
+    font-size: 26px;
+    font-style: italic;
+    text-align: justify;
+    text-shadow: 2px 2px 2px black, 2px 2px 2px #8400ff, 2px 2px 2px #8400ff;
+    color: white;
+}
+
+p span{
+    color: #ff0303;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px rgb(15, 15, 15);
+}
+
+
+/* Cambio de enlaces al final */
+
+.enlace{
+    color: #56f451;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(15, 15, 15);
+    font-size: 20px;
+}
+
+#cambio{
+    color: white;
+    text-shadow: 1px 1px 1px white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left; 
+    transform: translate(0%, 0%);
+}

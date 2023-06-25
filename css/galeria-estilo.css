@@ -1,0 +1,59 @@
+/* Cambio de Fondo  */
+
+body{
+    background-image:url(../Imágenes/fondo-navidad-blanca-espacio-texto_134545-30.webp) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Cambio de Párrafo Principal */
+
+.Cambiodeletra{
+    color: #02a443;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 130%;
+}
+
+p #cambio{
+    color: #b4f9b2;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(249, 5, 5), 0 0 0.2em rgb(245, 5, 5);
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left; 
+}
+
+/* Cambio de la Tabla */
+
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+table .letras{
+    font-family: cursive;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(2, 248, 72), 0 0 1em rgb(3, 240, 62), 0 0 0.2em rgb(3, 177, 3);
+    
+}
+
+/*  Cambio al pie de Tabla */
+
+p{
+
+    color: #02a443;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: left;
+}
