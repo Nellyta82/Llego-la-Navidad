@@ -2,8 +2,8 @@
 
 body{
     background-image:url(../Imágenes/fondo-navidad-blanca-espacio-texto_134545-30.webp) ;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-repeat: repeat;
+    background-size: 100% cover;
 }
 
 /* Cambio de Párrafo Principal */
@@ -16,6 +16,8 @@ body{
     font-weight: bolder;
     text-align: center;
     line-height: 130%;
+    justify-content: center;
+    align-items: center;
 }
 
 p #cambio{
@@ -55,5 +57,31 @@ p{
     text-shadow: 1px 1px 1px black;
     text-transform: uppercase;
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Haciendo responsivo */
+
+@media screen and (max-width: 768px) {
+    p{
+        margin-left: 50px;
+    }
+
+    .Cambiodeletra{
+        margin-left: 50px;
+    }
+   
+}
+
+@media screen and (max-width: 600px) {
+    p{
+        margin-left: 100px;
+    }
+
+    .Cambiodeletra{
+        margin-left: 100px;
+    }
+   
 }
